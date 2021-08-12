@@ -1,0 +1,29 @@
+.common-table .el-dialog__header {
+  border-bottom: 1px solid rgb(180, 176, 169);
+}
+.common-table .el-dialog__body {
+  padding-top: 5px !important;
+  height: 70vh;
+}
+.common-table .el-dialog__wrapper{
+  overflow: hidden!important;
+}
+.common-table .el-tabs_content{
+  overflow-y: auto!important;
+  max-height: 62vh;
+}
+.common-table .el-pagination {
+  margin-top:10px;
+  text-align: right;
+}
+.common-table .el-input.is-disabled .el-input__inner,
+.common-table .el-textarea.is-disabled .el-textarea__inner{
+    background-color: #fff;
+    color: rgb(94, 102, 106);
+}
+.no-margin{
+  margin: 0;
+}
+.el-table td {
+  padding: 5px 0;
+}

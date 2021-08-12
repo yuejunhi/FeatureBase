@@ -1,0 +1,14 @@
+.condition-common {
+  overflow-y: auto;
+  max-height: calc(60vh - 44px);
+}
+.condition-common .el-form-item {
+  margin-bottom: 15px;
+}
+.condition-common .el-textarea.is-disabled .el-textarea__inner {
+  background-color: #fff;
+  color: rgb(94, 102, 106);
+}
+.hide .el-upload--picture-card {
+  display: none;
+}

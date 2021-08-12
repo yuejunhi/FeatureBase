@@ -1,0 +1,61 @@
+.para-border{
+  padding: 10px;
+  margin: 0 120px 12px 120px;
+  border: 1px solid #DCDFE6;
+  border-radius: 5px;
+}
+.para-border .el-form-item {
+  margin-bottom: 12px;
+}
+.para-border .el-form-item .el-upload--picture-card {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+}
+.para-border .el-form-item .el-upload--picture-card i {
+    font-size: 18px;
+}
+.para-border .el-form-item .el-upload-list--picture-card .el-upload-list__item {
+    height: inherit;
+    width: inherit;
+    min-width: 120px;
+    min-height: 40px;
+    padding: 4px;
+    margin: 0;
+    display: inline-block;
+}
+.common-content,
+.seg-content{
+    min-height: 43px;
+    padding: 0 15px;
+    border: 1px solid #DCDFE6;
+    border-radius: 5px;
+  }
+  .common-content .seg-content-span,
+  .seg-content .seg-content-span{
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(235, 108, 108);
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  .common-content .feature-span,
+  .seg-content .feature-span{
+    padding: 5px;
+    background-color: #f4f4f5;
+    border-color: #e9e9eb;
+    color: #909399;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  .common-detail-edit-content{
+    max-height: 62vh;
+    overflow-y: auto;
+    padding: 0 10px;
+  }
+  .cursor{
+    cursor: pointer;
+  }
+  .redBorder{
+    border-color: rgb(225, 92, 92);
+  }
